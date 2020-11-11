@@ -30,8 +30,9 @@ nav ul {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left: -150px;
+    margin-bottom: 100px;
     width: 300px;
     background-color: white;
     display: inline-block;
@@ -39,6 +40,7 @@ nav ul {
     text-align: left;
     padding: 20px 20px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 
 input {
@@ -50,9 +52,36 @@ input {
     background-color: #2a6592;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 
     padding: 5px 20px 5px 20px;
 }
 
 body {
     background-color: #8ec3eb;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#amazonThumb {
+    width: 23%;
+    height: auto; 
+    border-radius: 100%;
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+#facebookThumb {
+    width: 19%;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    padding: 5px 5px 5px 10px;
+}
+
+#instaThumb {
+    width: 19%;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+    padding: 5px 5px 5px 20px;
 }
