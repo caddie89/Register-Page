@@ -52,7 +52,7 @@ input {
     background-color: #2a6592;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    margin: 
+    margin: 0px 0px 0px 110px;
     padding: 5px 20px 5px 20px;
 }
 
@@ -73,15 +73,12 @@ body {
 #facebookThumb {
     width: 19%;
     height: auto;
-    border-radius: 10px;
-    float: left;
-    padding: 5px 5px 5px 10px;
+    padding: 5px 5px 5px 45px;
 }
 
 #instaThumb {
     width: 19%;
     height: auto;
-    border-radius: 10px;
-    float: left;
+    float: right;
     padding: 5px 5px 5px 20px;
 }
